@@ -11,7 +11,7 @@
 1. iServer（網站）：用於建立伺服器帳號，並啟用 OTP（一次性密碼）功能來保護帳號安全
 2. Terminal開啟終端機（macOS）或CMD命令列（Windows）：從本地電腦遠端登入伺服器或超級電腦，進行指令操作
 3. ThinLinc（local 軟體）：用於透過圖形化介面遠端操作伺服器，適合處理需要桌面環境的工作
-4. rsync（macOS 工具）或FileZilla（Windows 軟體）：在本地與伺服器之間傳輸與管理檔案
+4. rsync（macOS 工具）或 WinSCP（Windows 軟體）：在本地與伺服器之間傳輸與管理檔案
 
 
 ## step 1:國網操作與設定
@@ -52,7 +52,7 @@ C. 依據信件中的指示安裝『IDExpert』APP』並完成綁定手機
 1. 進入iservice網頁後，依序點選畫面上方的：會員中心->計畫管理->我的計畫
 ![image](https://hackmd.io/_uploads/r1Gk54Xh6.png)
 2. 請填寫表單[國網帳號調查](https://forms.gle/gMknPEFekTxtZwmb7)
-3. 完成表單後，**敬請等待**助教們將您的帳號加入本課程「2025生物標記物與它們的產地」的計畫中
+3. 完成表單後，**敬請等待**助教們將您的帳號加入本課程「2026 次世代定序、生物資訊學與基因體醫學」的計畫中
 
 ### 登入國網
 * 使用Windows的同學開啟命令題字元(CMD)      
