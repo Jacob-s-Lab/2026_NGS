@@ -235,7 +235,7 @@ cd /work/{your_username}
 6. 連線成功後，如下圖所示，左半部是你的本機空間與路徑，右半部是你的國網空間與路徑
 ![螢幕擷取畫面 2025-08-13 154157](https://hackmd.io/_uploads/ry9rY29_ee.png)
 7. 請在右半部"遠端站台"處，改成檔案所在路徑(用意是要將檔案上傳到這個路徑下)  \
-![螢幕擷取畫面 2025-08-14 090839](https://hackmd.io/_uploads/Sk0j5h5_lx.png)
+![螢幕擷取畫面 2025-08-14 090839](https://hackmd.io/_uploads/Sk0j5h5_lx.png)  \
 ![螢幕擷取畫面 2025-08-14 090917](https://hackmd.io/_uploads/rkUCqnq_gx.png)
 9. 在左半部(本機空間)選取要上傳的檔案，拖移到右半部(國網空間)即可將檔案上傳至國網
 
