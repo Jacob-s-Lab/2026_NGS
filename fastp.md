@@ -33,17 +33,18 @@
     rsync -avz /work/evelyn92/2026NGS/HW1/fastp.sh ./
     ```
 
-5. 另外[下載](https://paylong2.tw/nextcloud/index.php/s/NP76ri2MNpoasmq)分析所需資料
+5. 另外[下載](http://gofile.me/52bBz/zExe2bPaf)分析所需資料
     ```
-    #下載密碼:NGS112-2
+    #下載密碼:BioInfo11532
+    #存放檔案的資料夾:NGS_HW
     ```
    >❗ **請下載以下六個檔案!!** (6條reads，共包含三個sample) \
-   > SRR13076392_S14_L002_R1_002.fastq.gz \
-   > SRR13076392_S14_L002_R2_002.fastq.gz \
-   > SRR13076393_S15_L002_R1_002.fastq.gz \
-   > SRR13076393_S15_L002_R2_002.fastq.gz \
-   > SRR13076398_S20_L002_R1_002.fastq.gz \
-   > SRR13076398_S20_L002_R2_002.fastq.gz
+   > SRR13076392_1.fastq.gz \
+   > SRR13076392_2.fastq.gz \
+   > SRR13076393_1.fastq.gz \
+   > SRR13076393_2.fastq.gz \
+   > SRR13076398_1.fastq.gz \
+   > SRR13076398_2.fastq.gz
    
 6. 請直接[上傳](https://github.com/Jacob-s-Lab/2026_NGS/blob/main/Linux_NCHC.md)  檔案到fastp\
     **❗此步驟需要學習的內容為將檔案從本地端上傳至國網❗**
