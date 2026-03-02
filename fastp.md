@@ -16,10 +16,10 @@
     cd /work/username
     mkdir result
     ```
-3. 接著`cd result`在建立一個資料夾`mkdir fastqc`儲存下載的sample
+3. 接著`cd result`在建立一個資料夾`mkdir fastq`儲存下載的sample
     ```
     cd result
-    mkdir fastp
+    mkdir fastq
     ```
 
 > [!IMPORTANT]
@@ -46,16 +46,16 @@
    > SRR13076398_1.fastq.gz \
    > SRR13076398_2.fastq.gz
    
-6. 請直接[上傳](https://github.com/Jacob-s-Lab/2026_NGS/blob/main/Linux_NCHC.md)  檔案到fastp\
+6. 請直接[上傳](https://github.com/Jacob-s-Lab/2026_NGS/blob/main/Linux_NCHC.md)  檔案到fastq\
     **❗此步驟需要學習的內容為將檔案從本地端上傳至國網❗**
     ```
-    上傳檔案:rsync -azrvh . 主機帳號@t3-c4.nchc.org.tw:/work/主機帳號/result/fastp
+    上傳檔案:rsync -azrvh . 主機帳號@t3-c4.nchc.org.tw:/work/主機帳號/result/fastq
     解壓縮檔案: unzip <要解壓縮的檔名>
     改檔名: mv <原本的檔名> <後來的檔名>
     ```
 
 > [!CAUTION]
-> `fastp`：此**資料夾**存放<ins> 下載的檔案 (fastq檔案) </ins>
+> `fastq`：此**資料夾**存放<ins> 下載的檔案 (fastq檔案) </ins>
 
 > [!IMPORTANT]
 > #### 文件格式介紹
@@ -79,7 +79,7 @@ Shell script for running [fastp](https://github.com/Jacob-s-Lab/2026_NGS/blob/ma
 
  
 1. 進入result資料夾，輸入`cd /work/username/result`
-2. 進入shell script，輸入`vim fastqc.sh`
+2. 進入shell script，輸入`vim fastp.sh`
 
 > [!IMPORTANT]
 > #### 命令小學堂
@@ -127,13 +127,13 @@ Shell script for running [fastp](https://github.com/Jacob-s-Lab/2026_NGS/blob/ma
   ```
   # Please enter the R1 & R2 file name and your username
   user=username                        # 國網帳號               
-  IN_DIR=/work/${user}/result/fastp    # 存放fastq的資料夾路徑
-  sample=SRR13076390                   # sample的名稱
+  IN_DIR=/work/${user}/result/fastq    # 存放fastq的資料夾路徑
+  sample=SRR13076392                   # sample的名稱
   R1=${IN_DIR}/${sample}_1.fastq.gz    # R1所在的檔案路徑
   R2=${IN_DIR}/${sample}_2.fastq.gz    # R2所在的檔案路徑
   ```
 
-(3)建立資料夾(命名為`fastqc_${sample}`)來存放fastp結果
+(3)建立資料夾(命名為`fastp_${sample}`)來存放fastp結果
   ```
   # output
   OUT_DIR=/work/${user}/result/fastp_${sample}
