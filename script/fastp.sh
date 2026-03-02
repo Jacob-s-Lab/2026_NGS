@@ -16,7 +16,7 @@ echo "$(date '+%Y-%m-%d %H:%M:%S')"
 
 
 # Please enter the R1 & R2 file name and your username
-user=evelyn92
+user=username
 IN_DIR=/work/${user}/result/fastp
 sample=SRR13076392
 R1=${IN_DIR}/${sample}_1.fastq.gz
