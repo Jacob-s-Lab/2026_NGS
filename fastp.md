@@ -190,7 +190,7 @@ sacct
 
 3. 查看結果  
  `out.log`和`err.log`為執行這個script的標準輸出和標準錯誤，如果執行時有出現錯誤，可以查看`err.log`(檔案會在`/work/username/result/`底下)
-* 這份執行檔會產生html檔（檔名為`sample.html`)，下載後即可開啟查看fastp Report
+* 這份執行檔會產生html檔（檔名為`sample.html`)，下載後即可開啟查看fastp Report（可用chrome開啟）
 * 下載詳情可見連結[下載](https://github.com/Jacob-s-Lab/2026_NGS/blob/main/Linux_NCHC.md)
   
 
