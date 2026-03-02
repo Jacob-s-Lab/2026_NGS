@@ -128,8 +128,8 @@ Shell script for running [fastp]([script/fastp.sh](https://github.com/Jacob-s-La
   user=username                        # 國網帳號               
   IN_DIR=/work/${user}/result/fastp    # 存放fastq的資料夾路徑
   sample=SRR13076390                   # sample的名稱
-  R1=${IN_DIR}/${sample}_L002_R1_002.fastq.gz    # R1所在的檔案路徑
-  R2=${IN_DIR}/${sample}_L002_R1_002.fastq.gz    # R2所在的檔案路徑
+  R1=${IN_DIR}/${sample}_1.fastq.gz    # R1所在的檔案路徑
+  R2=${IN_DIR}/${sample}_2.fastq.gz    # R2所在的檔案路徑
   ```
 
 (3)建立資料夾(命名為`fastqc_${sample}`)來存放fastp結果
