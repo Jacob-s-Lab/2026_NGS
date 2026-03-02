@@ -16,15 +16,15 @@ echo "$(date '+%Y-%m-%d %H:%M:%S')"
 
 
 # Please enter the R1 & R2 file name and your username
-user=jacobhsu
-IN_DIR=/staging/reserve/${user}/SEQC2
-sample=SRR13076390
+user=evelyn92
+IN_DIR=/work/${user}/result/fastp
+sample=SRR13076392
 R1=${IN_DIR}/${sample}_1.fastq.gz
 R2=${IN_DIR}/${sample}_2.fastq.gz
 
 
 # output
-OUT_DIR=/work/evelyn92/2026NGS/HW1/fastp_${sample}
+OUT_DIR=/work/${user}/result/fastp_${sample}
 mkdir -p ${OUT_DIR}
 
 OUT1=${OUT_DIR}/${sample}_1.clean.fastq.gz
@@ -43,7 +43,7 @@ echo "fastp start"
 echo "$(date '+%Y-%m-%d %H:%M:%S')"
 
 fastp \
-  -i ${R1} -I ${R2} \
+  -i ${R2} -I ${R2} \
   -o ${OUT1} -O ${OUT2} \
   -h ${HTML} -j ${JSON} \
   -w 3
