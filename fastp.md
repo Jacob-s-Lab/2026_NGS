@@ -38,11 +38,14 @@
     #下載密碼:BioInfo11532
     #存放檔案的資料夾:NGS_HW
     ```
-   >❗ **請下載以下六個檔案!!** (6條reads，共包含三個sample) \
+   >❗ **請依HW1分組下載以下檔案!!** (每組2條reads(同一個sample)) \
+   > HW1_1:
    > SRR13076392_1.fastq.gz \
    > SRR13076392_2.fastq.gz \
+   > HW1_2:
    > SRR13076393_1.fastq.gz \
    > SRR13076393_2.fastq.gz \
+   > HW1_3:
    > SRR13076398_1.fastq.gz \
    > SRR13076398_2.fastq.gz
    
