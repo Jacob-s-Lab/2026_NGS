@@ -167,7 +167,7 @@ cd /work/{your_username}
 -----------------------------
 
 ### 使用rsync上傳檔案
-1. 首先，先確認你自己的電腦，你要上傳的3個檔案是否統一放在一個獨立的資料夾(千萬不要放到本機電腦的desktop or download，不然依照後面的步驟會把所有在資料夾的檔案全部上傳喔)
+1. 首先，先確認你自己的電腦，你要上傳的檔案是否統一放在一個獨立的資料夾(千萬不要放到本機電腦的desktop or download，不然依照後面的步驟會把所有在資料夾的檔案全部上傳喔)
 ![image](https://hackmd.io/_uploads/S1wxNLmpp.png)
 2. 開啟**本機端的**終端機 (**注意，要另外開一個終端機，不是你現在有登入國網主機的終端機！**)
 ![image](https://hackmd.io/_uploads/Bk3Q4L7pp.png)
