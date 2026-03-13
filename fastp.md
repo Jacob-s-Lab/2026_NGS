@@ -68,7 +68,7 @@
 ---------------
 
 # Sample QC 
-Shell script for running [fastp](https://github.com/Jacob-s-Lab/2026_NGS/blob/main/script/fastp.sh) **❗這是給老師上課用的請勿直接複製下來做作業❗**
+Shell script for running [fastp](https://github.com/Jacob-s-Lab/2026_NGS/blob/main/script/fastp.sh) **❗這是給老師上課用解釋的請勿直接複製下來做作業❗**
 
 ## Step 1 建立shell script
 
