@@ -1,19 +1,25 @@
 #!/usr/bin/sh
-#SBATCH -A MST115078          # Account name/project number
+#SBATCH -A MST109178          # Account name/project number
 #SBATCH -J fastp              # Job name
-#SBATCH -p ngscourse          # Partition Name 等同PBS裡面的 -q Queue name
-#SBATCH -c 2                  # 使用的core數 請參考Queue資源設定
-#SBATCH --mem=13g             # 使用的記憶體量 請參考Queue資源設定
+#SBATCH -p NGS_t2             # Partition Name 等同PBS裡面的 -q Queue name
+#SBATCH -c 14                 # 使用的core數 請參考Queue資源設定
+#SBATCH --mem=92g             # 使用的記憶體量 請參考Queue資源設定
 #SBATCH -o out.log            # Path to the standard output file
 #SBATCH -e err.log            # Path to the standard error ouput file
 #SBATCH --mail-user=          # email
-#SBATCH --mail-type=END       # 指定送出email時機 可為NONE, BEGIN, END, FAIL, REQUEUE, ALL
+#SBATCH --mail-type=END      # 指定送出email時機 可為NONE, BEGIN, END, FAIL, REQUEUE, ALL
 
+#---------------------------------#
+# 👆請依據 tutorial 的指示修改 SLURM #
+#---------------------------------#
 
 set -v -x
 echo "start"
 echo "$(date '+%Y-%m-%d %H:%M:%S')"
 
+#-------------------------------------------#
+# 👇請依據 tutorial 的指示修改 username 和sample #
+#---------------------------------------------#
 
 # Please enter the R1 & R2 file name and your username
 user=username
@@ -42,8 +48,12 @@ module load fastp
 echo "fastp start"
 echo "$(date '+%Y-%m-%d %H:%M:%S')"
 
+#-------------------------------#
+# 👇請依據 tutorial 指示修改 input #
+#-------------------------------#
+
 fastp \
-  -i ${R1} -I ${R2} \
+  -i ${R2} -I ${R2} \
   -o ${OUT1} -O ${OUT2} \
   -h ${HTML} -j ${JSON} \
   -w 3
