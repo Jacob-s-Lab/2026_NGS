@@ -69,7 +69,7 @@
 
 # Sample QC 
 Shell script for running [fastp](https://github.com/Jacob-s-Lab/2026_NGS/blob/main/script/fastp.sh) **❗這是給老師上課用解釋的請勿直接複製下來做作業❗**
-
+**請利用`rsync`指令，將分析所需的指令(bash檔)，複製到自己的路徑下使用**
 ## Step 1 建立shell script
 
 > [!IMPORTANT]
