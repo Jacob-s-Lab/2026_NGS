@@ -115,7 +115,7 @@ Shell script for running [fastp](https://github.com/Jacob-s-Lab/2026_NGS/blob/ma
 
   ```
   #!/usr/bin/sh
-  #SBATCH -A MST115078                      # Account name/project number
+  #SBATCH -A ACD114093                      # Account name/project number
   #SBATCH -J fastp                          # Job name
   #SBATCH -p ngscourse                      # Partition Name 等同PBS裡面的 -q Queue name
   #SBATCH -c 2                              # 使用的core數 請參考Queue資源設定
