@@ -4,6 +4,8 @@
  1. 複製課程檔案至國網中自己的資料夾
  2. sample QC:對原始定序資料進行快速品質控制檢查。通過Quality Control研究人員可以識別資料中的潛在問題，從而做出資料過濾、修正的決定。在高通量定序實驗中，品質控制是對原始定序資料進行檢查和評估的過程，以確保資料的完整性和可靠性。
 
+## 本次課程的樹狀資料結構
+[FastP](https://github.com/Jacob-s-Lab/2026_NGS/blob/main/tree/NGS_HW1_tree.txt)
 
 ## 複製課程檔案
 > [!CAUTION]
