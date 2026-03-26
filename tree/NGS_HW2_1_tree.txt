@@ -1,0 +1,29 @@
+/
+|____work
+| |____Username
+|   |____result
+|   | |____fastq
+|   | | |____sample_1.fastq.gz
+|   | | |____sample_2.fastq.gz
+|   | |____fastp_sample
+|   | | |____sample_1.clean.fastq.gz
+|   | | |____sample_2.clean.fastq.gz
+|   | | |____sample.html
+|   | | |____sample.json
+|   | |____err.log
+|   | |____out.log
+|   | |____analysis
+|   |   |____output_sample
+|   |   | |____ALN
+|   |   |   |____sample.bam
+|   |   |   |____sample.sam
+|   |   |   |____sample.sorted.bam
+|   |   |   |____sample.sorted.bam.bai
+|   |   |   |____sample.sorted.markdup.bam
+|   |   |   |____sample_markdup_metrics.txt
+|   |   |   |____sample.sorted.markdup.bai
+|   |   |____al_err.log
+|   |   |____al_out.log
+|   |   |____ALN.sh
+|   |____fastp.sh
+|____home
