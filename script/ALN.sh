@@ -21,13 +21,13 @@ sample=SRR13076392
 R1=${IN_DIR}/${sample}_1.fastq.gz
 R2=${IN_DIR}/${sample}_2.fastq.gz
 
+echo "pwd for analysis reault: "
+pwd
+
 # output
 OUT_DIR=/work/${user}/result/output_${sample}
 mkdir -p ${OUT_DIR}
 cd ${OUT_DIR}
-
-echo "pwd for analysis reault: "
-pwd
 
 # ------------------------------------ #
 # Please don't change the script below #
