@@ -19,7 +19,7 @@
  2. ❗利用picard做mark duplicates❗
 
 ## 本次課程的樹狀資料結構
-[Alignment]
+[Alignment](https://github.com/Jacob-s-Lab/2026_NGS/blob/main/tree/NGS_HW3_1_tree.txt)
 
 ## Alignment
 > [!Important]
