@@ -1,0 +1,45 @@
+/
+|____work
+| |____Username
+|   |____result
+|   | |____fastq
+|   | | |____sample_1.fastq.gz
+|   | | |____sample_2.fastq.gz
+|   | |____fastp_sample
+|   | | |____sample_1.clean.fastq.gz
+|   | | |____sample_2.clean.fastq.gz
+|   | | |____sample.html
+|   | | |____sample.json
+|   | |____err.log
+|   | |____out.log
+|   | |____analysis
+|   |   |____output_sample
+|   |   | |____ALN
+|   |   | | |____sample.bam
+|   |   | | |____sample.sam
+|   |   | | |____sample.sorted.bam
+|   |   | | |____sample.sorted.bam.bai
+|   |   | | |____sample.sorted.markdup.bam
+|   |   | | |____sample_markdup_metrics.txt
+|   |   | | |____sample.sorted.markdup.bai
+|   |   | |____VC
+|   |   |   |____sample.sorted.markdup.hc.vcf.gz
+|   |   |   |____sample.sorted.markdup.hc.vcf.gz.tbi
+|   |   |   |____sample.sorted.markdup.hc.cram
+|   |   |   |____sample.sorted.markdup.hc.cram.crai
+|   |   |   |____sample.sorted.markdup.m2.vcf.gz
+|   |   |   |____sample.sorted.markdup.m2.vcf.gz.tbi
+|   |   |   |____sample.sorted.markdup.m2.cram
+|   |   |   |____sample.sorted.markdup.m2.cram.crai
+|   |   |____al_err.log
+|   |   |____al_out.log
+|   |   |____ALN.sh
+|   |   |____vc_err.log
+|   |   |____vc_out.log
+|   |   |____VC.sh
+|   |   |____m2_err.log
+|   |   |____m2_out.log
+|   |   |____VC_mutect2.sh
+|   |   |____mutect2.sh
+|   |____fastp.sh
+|____home
