@@ -111,7 +111,7 @@ echo "$(date '+%Y-%m-%d %H:%M:%S')"
 
 # python3 $(which gatk) HaplotypeCaller \
 gatk HaplotypeCaller \
-  -R /opt/ohpc/Taiwania3/pkg/biology/reference/Homo_sapiens/GATK/hg38/Homo_sapiens_assembly38.fasta \
+  -R ${ref} \
   -I ${DIR_ALN}/${sample}.sorted.markdup.bam \
   -O ${sample}.sorted.markdup.hc.vcf.gz \
   --bam-output ${sample}.sorted.markdup.hc.bam \
