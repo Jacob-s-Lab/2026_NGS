@@ -5,7 +5,7 @@ echo "variant calling: start"
 echo "$(date '+%Y-%m-%d %H:%M:%S')"
 
 gatk Mutect2 \
-  -R /opt/ohpc/Taiwania3/pkg/biology/reference/Homo_sapiens/GATK/hg38/Homo_sapiens_assembly38.fasta \
+  -R ${ref} \
   -I ${DIR_ALN}/${sample}.sorted.markdup.bam \
   -O ${sample}.sorted.markdup.M2.vcf.gz \
   --bam-output ${sample}.sorted.markdup.M2.bam \
