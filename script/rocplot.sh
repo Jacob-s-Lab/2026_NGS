@@ -21,7 +21,7 @@ mkdir -p ${OUT_DIR}
 cd ${OUT_DIR}
 
 # create a new directory for rocplot
-DIR_roc=${OUT_DIR}/rocplot
+DIR_roc=${OUT_DIR}/rocplot/rocplot_HC
 mkdir -p ${DIR_roc}
 cd ${DIR_roc}
 echo "pwd for rocplot: "
