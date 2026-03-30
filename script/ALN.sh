@@ -25,7 +25,7 @@ echo "pwd for analysis reault: "
 pwd
 
 # output
-OUT_DIR=/work/${user}/result/output_${sample}
+OUT_DIR=/work/${user}/result/analysis/output_${sample}
 mkdir -p ${OUT_DIR}
 cd ${OUT_DIR}
 
