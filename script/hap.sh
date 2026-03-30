@@ -1,11 +1,11 @@
 #!/usr/bin/sh
 #SBATCH -A ACD114093          # Project name: The project number for our class.
-#SBATCH -J hap                 # Job name: You can change this to any name you prefer.
+#SBATCH -J hap                # Job name: You can change this to any name you prefer.
 #SBATCH -p ngscourse          # Partition Name
 #SBATCH -c 2                  # Number of CPU cores
 #SBATCH --mem=13g             # Memory allocation
-#SBATCH -o hap_HC_out.log         # -o: This exports the out.log file, which will record the steps executed by the program.
-#SBATCH -e hap_HC_err.log         # -e: This exports the err.log file, which will record any failures; if not specified otherwise, both log files will be located in the current directory of the SH file.
+#SBATCH -o hap_HC_out.log     # -o: This exports the out.log file, which will record the steps executed by the program.
+#SBATCH -e hap_HC_err.log     # -e: This exports the err.log file, which will record any failures; if not specified otherwise, both log files will be located in the current directory of the SH file.
 #SBATCH --mail-user=          # Here, you can input your email. An email will be sent to you if the next line's conditions are met.
 #SBATCH --mail-type=END       # Email will be sent when the job ends.
 
