@@ -39,7 +39,7 @@
 |   |   |____VC_HC.sh
 |   |   |____m2_err.log
 |   |   |____m2_out.log
-|   |   |____VC_mutect2.sh
+|   |   |____VC_M2.sh
 |   |   |____mutect2.sh
 |   |____fastp.sh
 |____home
