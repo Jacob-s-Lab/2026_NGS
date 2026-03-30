@@ -70,8 +70,8 @@ n
 ```
 
 3. 更改正確路徑  \
-   (1)🔴 **紅色** 的部分：需換成自己的 **username**。
-   (2)🟡 **黃色** 部分：改成自己的sample。
+   (1)🔴 **紅色** 的部分：需換成自己的 **username**。  \
+   (2)🟡 **黃色** 部分：改成自己的sample。  \
    (3)🔵 **藍色** 的部分：須注意是 **Haplotypecaller 或是 Mutect2 的檔案**。  \
 ![螢幕擷取畫面 2026-03-30 170606](https://hackmd.io/_uploads/H1HtphwsZl.png)
 
