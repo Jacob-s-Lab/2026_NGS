@@ -113,8 +113,8 @@ echo "$(date '+%Y-%m-%d %H:%M:%S')"
 gatk HaplotypeCaller \
   -R ${ref} \
   -I ${DIR_ALN}/${sample}.sorted.markdup.bam \
-  -O ${sample}.sorted.markdup.hc.vcf.gz \
-  --bam-output ${sample}.sorted.markdup.hc.bam \
+  -O ${sample}.sorted.markdup.HC.vcf.gz \
+  --bam-output ${sample}.sorted.markdup.HC.bam \
   -L chr1 -L chr2 -L chr3 -L chr4 -L chr5 -L chr6 -L chr7 -L chr8 -L chr9  \
   -L chr10 -L chr11 -L chr12 -L chr13 -L chr14 -L chr15 -L chr16 -L chr17  \
   -L chr18 -L chr19 -L chr20 -L chr21 -L chr22
@@ -129,10 +129,10 @@ echo "convert HC bamout to cram: start"
 echo "$(date '+%Y-%m-%d %H:%M:%S')"
 
 samtools view -@ 2 -C -T ${ref} \
-  -o ${sample}.sorted.markdup.hc.cram \
-  ${sample}.sorted.markdup.hc.bam
+  -o ${sample}.sorted.markdup.HC.cram \
+  ${sample}.sorted.markdup.HC.bam
 
-samtools index -@ 2 ${sample}.sorted.markdup.hc.cram
+samtools index -@ 2 ${sample}.sorted.markdup.HC.cram
 
 echo "convert HC bamout to cram: finished"
 echo "$(date '+%Y-%m-%d %H:%M:%S')"
