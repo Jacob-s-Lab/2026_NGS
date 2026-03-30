@@ -38,9 +38,6 @@ module load bcftools
 ## create a new directory for hap
 DIR_hap=${OUT_DIR}/hap
 mkdir -p ${DIR_hap}
-DIR_hap_HC=${DIR_hap}/hap_HC
-mkdir -p ${DIR_hap_HC}
-cd ${DIR_hap_HC}
 echo "pwd for hap: "
 pwd
 
@@ -56,14 +53,14 @@ bcftools view \
 -M2 \
 ${query} \
 -Oz \
--o ${DIR_hap_HC}/${sample}.HC.modified.vcf.gz
-bcftools index ${DIR_hap_HC}/${sample}.HC.modified.vcf.gz
+-o ${DIR_hap}/${sample}.HC.modified.vcf.gz
+bcftools index ${DIR_hap}/${sample}.HC.modified.vcf.gz
 
 echo "bcftools finished"
 echo "$(date '+%Y-%m-%d %H:%M:%S')"
 
 
-query_modified=${DIR_hap_HC}/${sample}.HC.modified.vcf.gz
+query_modified=${DIR_hap}/${sample}.HC.modified.vcf.gz
 export HGREF=${REF_DIR}/Homo_sapiens/GATK/hg38/Homo_sapiens_assembly38.fasta
 ##########
 # hap.py #
@@ -74,7 +71,7 @@ echo "$(date '+%Y-%m-%d %H:%M:%S')"
 /opt/ohpc/Taiwania3/pkg/biology/illumina_hap.py/hap.py_v0.3.15/bin/hap.py ${truth} ${query_modified} \
 --filter-nonref \
 -f ${IN_DIR}/High-Confidence_Regions_v1.2.bed.gz \
--o ${DIR_hap_HC}/output_prefix \
+-o ${DIR_hap}/output_prefix \
 -r ${REF_DIR}/Homo_sapiens/GATK/hg38/Homo_sapiens_assembly38.fasta \
 --leftshift \
 --bcftools-norm 
