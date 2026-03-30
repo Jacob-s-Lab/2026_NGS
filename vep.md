@@ -137,5 +137,5 @@ sacct
   (5) VEP 變數`INPUT_VCF` 和 `SAMPLE_ID` 的檔案名稱
 > [!Warning]
 > 如果沒有完整修改的話，當 output 檔案名稱與剛剛做出來的檔案名稱相同時，將會覆蓋掉之前的檔案。
-6. 執行修改好的 shell script。
+5. 執行修改好的 shell script。
 ---------------------
