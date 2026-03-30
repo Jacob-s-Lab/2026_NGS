@@ -123,7 +123,7 @@ sacct
 
 ---------------------
 ### 練習
-使用 Mutect2 VariantCalling 後的結果用 VEP 做 annotation
+用 VEP 對 Mutect2 VariantCalling 後的結果做 annotation
 1. 請先確認Mutect2 VariantCalling是否已跑完
 2. 確認`VC`資料夾下有Mutect2 output的完整檔案  
 **提示：`ls`後有顯示`sample.sorted.markdup.M2.vcf.gz`**
