@@ -16,7 +16,7 @@ echo "$(date '+%Y-%m-%d %H:%M:%S')"
 
 # Please enter the R1 & R2 file name and your username
 user=username
-IN_DIR=/work/${user}/result/analysis/fastq
+IN_DIR=/work/${user}/result/fastq
 sample=SRR13076392
 R1=${IN_DIR}/${sample}_1.fastq.gz
 R2=${IN_DIR}/${sample}_2.fastq.gz
@@ -25,7 +25,7 @@ echo "pwd for analysis reault: "
 pwd
 
 # output
-OUT_DIR=/work/${user}/result/output_${sample}
+OUT_DIR=/work/${user}/result/analysis/output_${sample}
 mkdir -p ${OUT_DIR}
 cd ${OUT_DIR}
 
