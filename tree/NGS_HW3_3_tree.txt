@@ -49,18 +49,18 @@
 |   |   |____al_err.log
 |   |   |____al_out.log
 |   |   |____ALN.sh
-|   |   |____HC_err.log
-|   |   |____HC_out.log
+|   |   |____hc_err.log
+|   |   |____hc_out.log
 |   |   |____VC_HC.sh
-|   |   |____M2_err.log
-|   |   |____M2_out.log
+|   |   |____m2_err.log
+|   |   |____m2_out.log
 |   |   |____VC_mutect2.sh
 |   |   |____mutect2.sh
-|   |   |____VP_HC_err.log
-|   |   |____VP_HC_out.log
+|   |   |____vp_hc_err.log
+|   |   |____vp_hc_out.log
 |   |   |____vep_HC.sh
-|   |   |____VP_M2_err.log
-|   |   |____VP_M2_out.log
+|   |   |____vp_m2_err.log
+|   |   |____vp_m2_out.log
 |   |   |____vep_M2.sh
 |   |____fastp.sh
 |____home
