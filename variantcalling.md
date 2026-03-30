@@ -168,7 +168,7 @@ sh /opt/ohpc/Taiwania3/pkg/biology/IGV/IGV_v2.10.3/igv.sh
     ![image](https://hackmd.io/_uploads/HyVI28a9eg.png)  
     
 (3) 透過左上角的File → Load from file可匯入cram檔，檔案位於以下路徑：  
-- bam file:`/work/username/result/analysis/output_sample/VC/sample.sorted.markdup.hc.cram`
+- bam file:`/work/username/result/analysis/output_sample/VC/sample.sorted.markdup.HC.cram`
 ![螢幕擷取畫面 2026-03-28 123402](https://hackmd.io/_uploads/rkqoe1Si-l.png)
 
 
