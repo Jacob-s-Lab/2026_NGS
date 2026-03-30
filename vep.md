@@ -60,7 +60,7 @@ vim vep_HC.sh
 
 [https://genome.sph.umich.edu/wiki/Variant_Normalization](https://)
     
-* VEP annotation 正式VEP註解遺傳變異
+* VEP annotation 正式VEP註解遺傳變異  \
 ![image](https://hackmd.io/_uploads/rktdv_wiZe.png)
 
 * Original VEP output 原始VEP格式（VCF）
