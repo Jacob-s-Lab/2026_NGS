@@ -23,14 +23,14 @@
 |   |   | | |____sample_markdup_metrics.txt
 |   |   | | |____sample.sorted.markdup.bai
 |   |   | |____VC
-|   |   |   |____sample.sorted.markdup.hc.vcf.gz
-|   |   |   |____sample.sorted.markdup.hc.vcf.gz.tbi
-|   |   |   |____sample.sorted.markdup.hc.cram
-|   |   |   |____sample.sorted.markdup.hc.cram.crai
-|   |   |   |____sample.sorted.markdup.m2.vcf.gz
-|   |   |   |____sample.sorted.markdup.m2.vcf.gz.tbi
-|   |   |   |____sample.sorted.markdup.m2.cram
-|   |   |   |____sample.sorted.markdup.m2.cram.crai
+|   |   |   |____sample.sorted.markdup.HC.vcf.gz
+|   |   |   |____sample.sorted.markdup.HC.vcf.gz.tbi
+|   |   |   |____sample.sorted.markdup.HC.cram
+|   |   |   |____sample.sorted.markdup.HC.cram.crai
+|   |   |   |____sample.sorted.markdup.M2.vcf.gz
+|   |   |   |____sample.sorted.markdup.M2.vcf.gz.tbi
+|   |   |   |____sample.sorted.markdup.M2.cram
+|   |   |   |____sample.sorted.markdup.M2.cram.crai
 |   |   |____al_err.log
 |   |   |____al_out.log
 |   |   |____ALN.sh
