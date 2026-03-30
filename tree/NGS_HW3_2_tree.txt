@@ -34,9 +34,9 @@
 |   |   |____al_err.log
 |   |   |____al_out.log
 |   |   |____ALN.sh
-|   |   |____vc_err.log
-|   |   |____vc_out.log
-|   |   |____VC.sh
+|   |   |____hc_err.log
+|   |   |____hc_out.log
+|   |   |____VC_HC.sh
 |   |   |____m2_err.log
 |   |   |____m2_out.log
 |   |   |____VC_mutect2.sh
