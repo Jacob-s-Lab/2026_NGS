@@ -27,11 +27,10 @@
 > Alignment（比對）是bioinformatics中的一個重要概念，指的是將兩條或多條序列進行比較，以找出它們之間的相似性和差異性。這些序列可以是DNA、RNA或蛋白質的序列。Alignment 的主要目的是通過比較不同的生物序列來推測它們之間的進化關係、功能相似性或結構特徵。
 <details>
 <summary> BWA / Picard / MarkDuplicates 說明（點擊展開）</summary> 
-> [!Important]
-> #### 甚麼是BWA?
-> BWA（Burrows-Wheeler Aligner）是一個用於基因組序列比對的工具，特別適用於將短序列讀段（reads）比對到參考基因組(reference genome)。
-> 
-> #### 甚麼是Picard?
+[!IMPORTANT]
+#### 甚麼是BWA?
+BWA（Burrows-Wheeler Aligner）是一個用於基因組序列比對的工具，特別適用於將短序列讀段（reads）比對到參考基因組(reference genome)。
+#### 甚麼是Picard?
 > Picard 是一套genomic data analysis，專為處理高通量測序數據設計，提供了一系列功能強大的工具，幫助用戶在分析過程中進行各種操作，提供如 MarkDuplicates、調整讀數群組、重新排序、數據清理、統計分析和格式轉換等功能，廣泛應用於變異檢測和基因體分析的工作流程中。
 > 
 > #### 甚麼是MarkDuplicats?
