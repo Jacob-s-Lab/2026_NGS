@@ -25,8 +25,7 @@
 > [!Important]
 > #### 甚麼是Alignment?
 > Alignment（比對）是bioinformatics中的一個重要概念，指的是將兩條或多條序列進行比較，以找出它們之間的相似性和差異性。這些序列可以是DNA、RNA或蛋白質的序列。Alignment 的主要目的是通過比較不同的生物序列來推測它們之間的進化關係、功能相似性或結構特徵。
->
-> [!IMPORTANT]
+> 
 > BWA / Picard / MarkDuplicates 說明
 <details>
 <summary>(點擊展開)</summary> 
