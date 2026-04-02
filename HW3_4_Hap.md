@@ -2,7 +2,8 @@
 
 ## 本次課程主要內容
 學習利用`hap.py`比較 Haplotypecaller 和 Mutect2 的分析結果，以了解它們在不同情境下的性能和準確性。
-
+> [!Caution]
+> **運算時間: 30 m**
 
 > [!Warning]
 > #### 前情提要：需先準備好之前 tutorial 做完的兩種 VariantCalling: HaplotypeCaller 及 Mutect2 的結果！！
@@ -11,9 +12,6 @@
 > [!Important]
 > #### 什麼是`hap.py`？
 > `hap.py`（Haplotype Comparison Tools）是一個用於比較基因組變異的工具。它經常被用來評估 variant calling 算法的準確性，特別是在體細胞或生殖細胞中的 SNPs 和 Indels 等變異的識別。`hap.py` 可以用來對比 variant calling 結果與已知的標準答案（例如 gold standard VCF ），以評估變異檢測方法的靈敏度 (Recall)、精確度 (Precision)等指標。
-
-> [!Caution]
-> **運算時間: 30 m**
 
 ### step 1 : 執行 [`hap.py`](https://github.com/Jacob-s-Lab/2026_NGS/blob/main/script/hap.sh)
 
