@@ -9,18 +9,29 @@
 
 > [!Important]
 > #### GATK介紹
+<details>
+<summary>(點擊展開)</summary> 
+
 >　- GATK（Genome Analysis Toolkit）是一套功能強大的基因組學分析軟件工具集，專門設計來處理高通量 DNA 和 RNA sequence data，特別是處理變異檢測（variant calling）、數據品質控制以及數據後處理。GATK 被廣泛應用於研究中，用來分析與疾病相關的遺傳變異、癌症基因組學及個體基因組分析。
 > - 課程中使用的部分為HaplotypeCaller，是GATK 中最常用的變異檢測工具，專門用於檢測單核苷酸變異（SNPs）和插入/刪除變異（Indels）。
 >
 >    https://gatk.broadinstitute.org/hc/en-us
->
+
+</details>
+
+> [!Important]
 > #### 甚麼是variant calling?
+<details>
+<summary>(點擊展開)</summary> 
+ 
 > - Variant calling（變異檢測)是生物信息學中的一個過程，用於從 DNA sequnece data 中檢測和識別基因組中的遺傳變異。這些變異可能是不同的 DNA sequence與reference genome 相比存在的差異。變異檢測的常見應用包括尋找疾病相關的基因突變、個人基因組分析以及研究群體中的遺傳多樣性。
 > 
 > - 變異通常可以分為以下幾類：
 > (1)單核苷酸變異（SNP，Single Nucleotide Polymorphisms）：單個核苷酸的改變。例如參考序列是 A，但在樣本中發現變為 T。
 > (2)插入與刪除變異（Indels，Insertions and Deletions）：DNA 序列中插入或刪除了一個或多個核苷酸。
 > (3)結構變異（Structural Variants, SVs）：較大範圍的變異，可能涉及基因組的大塊重排、複製、轉位等。
+
+</details>
 
 ## 本次課程的樹狀資料結構
 [Variantcalling](https://github.com/Jacob-s-Lab/2026_NGS/blob/main/tree/NGS_HW3_2_tree.txt)
@@ -34,6 +45,7 @@ cd /work/username/result/analysis
 3. 複製上課所需執行檔
 ```marksown=
 rsync -avz /work/evelyn92/2026NGS/HW3/VC_HC.sh ./
+rsync -avz /work/evelyn92/2026NGS/HW3/Mutect2.sh ./
 ```
 
 ### step 2 修改分析執行檔
@@ -131,18 +143,13 @@ q
 > ![image](https://hackmd.io/_uploads/S17rF97RA.png)
 > ![image](https://hackmd.io/_uploads/BkeBEXHRR.png)  
 
----------------------
-### 練習
-將 variant calling 的方式由 GATK HaplotypeCaller 改為 GATK Mutect2
-1. 請到 [ntu cool](https://cool.ntu.edu.tw/courses/59845) 中下載 sh 檔
-2. 將檔案放到自己的國網帳號上
-**提示：確認是否正確將檔案上傳至`analysis`資料夾下**
-3. 先複製一份 `VC_HC.sh`，並命名為 `VC_M2.sh`。
+### 將 variant calling 的方式改為 GATK Mutect2
+1. 先複製一份 `VC_HC.sh`，並命名為 `VC_M2.sh`。
 ```
 cd /work/username/result/analysis
 cp VC_HC.sh VC_M2.sh
 ```
-4. 開啟 [`Mutect2.sh`](https://github.com/Jacob-s-Lab/2026_NGS/blob/main/script/Mutect2.sh)，並將裡面的內容複製並置換 `VC_M2.sh`中 variant calling 的部分。
+4. 開啟`analysis`資料夾下的 [`Mutect2.sh`](https://github.com/Jacob-s-Lab/2026_NGS/blob/main/script/Mutect2.sh)，並將裡面的內容複製並置換 `VC_M2.sh`中 variant calling 的部分。
 5. 修改 `VC_M2.sh` 中的參數。  
 **提示：需要修改的內容為**  
   (1) 開頭部分 err.log 及 out.log 的檔案名稱。  
@@ -151,7 +158,6 @@ cp VC_HC.sh VC_M2.sh
 > [!Warning]
 > 如果沒有完整修改的話，當 output 檔案名稱與剛剛用 hapltypecaller 做出來的檔案名稱相同時，將會覆蓋掉之前的檔案。
 6. 執行修改好的 shell script。
----------------------
 
 ## 用IGV察看結果
 ### step 1 使用Thinlinc、開啟IGV
@@ -176,12 +182,17 @@ sh /opt/ohpc/Taiwania3/pkg/biology/IGV/IGV_v2.10.3/igv.sh
 
 > [!IMPORTANT]
 > #### 何為cram檔?
+<details>
+<summary>(點擊展開)</summary> 
+
 > **CRAM檔**（Compressed Reference-oriented Alignment Map）：
 > 是一種用來儲存基因定序比對結果的壓縮格式，通常在序列完成與參考基因組（reference genome）比對後使用。它與 BAM 檔類似，差別在於 CRAM 會利用參考基因組記錄序列之間的差異，而不是完整儲存每條序列，因此能有效減少檔案大小，且在讀取時需搭配相同的參考基因組。
 > - CRAM：利用 reference genome 進行壓縮
 > - 儲存內容：read 與 reference 的差異資訊
 > - 檔案型式：二進位格式（不可直接閱讀）
 > - 相較 BAM：檔案更小，但需 reference 才能解讀
+
+</details>
 
 (4) 左上角可選取要看的染色體以及範圍（藍色框），右上角（紅色框）可選取要看的大小（需要放大到足夠的級距才能看到結果）
 ![螢幕擷取畫面 2026-03-28 123527](https://hackmd.io/_uploads/Hk9JRC4j-x.png)
