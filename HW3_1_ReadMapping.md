@@ -17,6 +17,9 @@
 ## 本次課程主要內容
  1. 利用BWA做alignment
  2. ❗利用picard做mark duplicates❗
+> [!Caution]
+> #### 運算時間
+> 20~21 h
 
 ## 本次課程的樹狀資料結構
 [Alignment](https://github.com/Jacob-s-Lab/2026_NGS/blob/main/tree/NGS_HW3_1_tree.txt)
