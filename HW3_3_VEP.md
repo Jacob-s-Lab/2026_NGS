@@ -9,6 +9,8 @@
 >
 > #### VEP介紹
 > VEP（Variant Effect Predictor）是由Ensembl開發的一款工具，用於分析遺傳資訊，特别是評估基因中的不同變異（如SNVs、insertion、deletion和Structural variants）對生物功能的影響，非常適合用於annotation。
+> [!Caution]
+> **運算時間: 1~2 h**
 
 ## 本次課程的樹狀資料結構
 [Annotation](https://github.com/Jacob-s-Lab/2026_NGS/blob/main/tree/NGS_HW3_3_tree.txt)
