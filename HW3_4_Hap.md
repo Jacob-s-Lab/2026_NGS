@@ -2,12 +2,12 @@
 
 ## 本次課程主要內容
 學習利用`hap.py`比較 Haplotypecaller 和 Mutect2 的分析結果，以了解它們在不同情境下的性能和準確性。
-> [!Caution]
-> **運算時間: 30 m**
-
 > [!Warning]
 > #### 前情提要：需先準備好之前 tutorial 做完的兩種 VariantCalling: HaplotypeCaller 及 Mutect2 的結果！！
 > 如果尚未完成請先回到 [variantcalling.md] 完成 tutorial 的內容~
+
+> [!Caution]
+> **運算時間: 30 m**
 
 > [!Important]
 > #### 什麼是`hap.py`？
