@@ -4,6 +4,8 @@
 1. ❗**利用GATK做variant calling**❗
 2. 學會看variant calling的結果
 3. 用ThinLinc打開IGV查看variant calling後的結果
+> [!Caution]
+> **運算時間: 17~19 h**
 
 > [!Important]
 > #### GATK介紹
