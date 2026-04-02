@@ -134,14 +134,18 @@ less sample.sorted.markdip.HC.vcf.gz
 q
 ```
 
-## Vcf檔案講解說明
 > [!IMPORTANT]
 > #### 何為vcf檔?
+<details>
+<summary>(點擊展開)</summary> 
+
 > VCF（Variant Call Format）檔案是一種用於存儲基因變異數據的標準檔案格式，通常用來記錄 DNA sequence中與regerence genome不同的變異信息。VCF 檔案的主要應用是在基因組學研究中，特別是基於高通量測序（NGS）技術所產生的數據。這些檔案可以記錄多種類型的變異，包括單核苷酸多態性（SNPs）、插入或刪除變異（Indels）等。
 > https://www.htslib.org/doc/vcf.html
 >
 > ![image](https://hackmd.io/_uploads/S17rF97RA.png)
 > ![image](https://hackmd.io/_uploads/BkeBEXHRR.png)  
+
+</details>
 
 ### 將 variant calling 的方式改為 GATK Mutect2
 1. 先複製一份 `VC_HC.sh`，並命名為 `VC_M2.sh`。
