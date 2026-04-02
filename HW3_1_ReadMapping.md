@@ -160,10 +160,14 @@ cd /work/username/result/analysis/output_sample/ALN   #或使用絕對路徑
 ```
 > [!Important]
 > #### 相對路徑vs.絕對路徑
+<details>
+<summary>(點擊展開)</summary>
+
 > 1. **相對路徑**: 相對路徑是從當前工作目錄開始的路徑。它描述了相對於當前目錄的位置來找到某個文件或資料夾。例如，如果你在 "home" 目錄中，想要訪問 "home" 中的 "documents" 資料夾內的文件，你可以使用相對路徑 ./documents/filename.txt。
 > 
 > 2. **絕對路徑**: 絕對路徑是從文件系統的根目錄（用 "/" 表示）開始的完整路徑。它提供了文件或資料夾的確切位置，與當前工作目錄無關。例如，/home/username/documents/filename.txt 是一個絕對路徑，因為它從根目錄（/）開始，並且包含到文件的完整路徑。
 
+</details>
 
 (2)確認檔案存在:
 ```
