@@ -123,9 +123,7 @@ sacct
 > 12. CLIN_SIG：在ClinVar database中臨床意義。
 > 13. TWB_official_SNV_indel_AF：最新臺灣人體資料庫中此變異的等位基因頻率。(https://www.sciencedirect.com/science/article/pii/S2090123223004058?via%3Dihub)
 
----------------------
-### 練習
-用 VEP 對 Mutect2 VariantCalling 後的結果做 annotation
+### 改用 Mutect2 的結果做 annotation
 1. 請先確認Mutect2 VariantCalling是否已跑完
 2. 確認`VC`資料夾下有Mutect2 output的完整檔案  
 **提示：`ls`後有顯示`sample.sorted.markdup.M2.vcf.gz`**
@@ -140,4 +138,3 @@ sacct
 > [!Warning]
 > 如果沒有完整修改的話，當 output 檔案名稱與剛剛做出來的檔案名稱相同時，將會覆蓋掉之前的檔案。
 5. 執行修改好的 shell script。
----------------------
