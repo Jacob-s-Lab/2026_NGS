@@ -21,10 +21,10 @@ mkdir -p ${OUT_DIR}
 cd ${OUT_DIR}
 
 # create a new directory for rocplot
-DIR_roc=${OUT_DIR}/rocplot/rocplot_HC
+DIR_roc=${OUT_DIR}/rocplot
 mkdir -p ${DIR_roc}
 cd ${DIR_roc}
 echo "pwd for rocplot: "
 pwd
 
-Rscript ${IN_DIR}/rocplot_test.Rscript hap_plot -pr ${OUT_DIR}/hap/hap_HC/output_prefix:${sample}
+Rscript ${IN_DIR}/rocplot.Rscript hap_plot -pr ${OUT_DIR}/hap/hap_HC/output_prefix:${sample}_HC ${OUT_DIR}/hap/hap_HC/output_prefix:${sample}_M2
