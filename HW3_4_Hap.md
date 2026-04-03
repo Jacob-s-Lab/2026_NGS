@@ -3,8 +3,8 @@
 ## 本次課程主要內容
 學習利用`hap.py`比較 Haplotypecaller 和 Mutect2 的分析結果，以了解它們在不同情境下的性能和準確性。
 > [!Warning]
-> #### 前情提要：需先準備好之前 tutorial 做完的兩種 VariantCalling: HaplotypeCaller 及 Mutect2 的結果！！
-> 如果尚未完成請先回到 [variantcalling.md] 完成 tutorial 的內容~
+> #### 前情提要：需先完成VariantCalling的tutorial！！
+> 如果尚未完成請先回到 [HW3_2_VC.md](https://github.com/Jacob-s-Lab/2026_NGS/blob/main/HW3_2_VC.md) 完成 tutorial 的內容~
 
 > [!Caution]
 > **運算時間: 30 m**
@@ -58,7 +58,7 @@ sbatch hap.sh
 ```markdown=
 cd /work/username/result/analysis
 rsync -avz /work/evelyn92/2026NGS/HW3/rocplot.sh ./
-rsync -avz /work/evelyn92/rocplot/rocplot_test.Rscript ./
+rsync -avz /work/evelyn92/rocplot/rocplot.Rscript ./
 ```
 2. 進入R，載入需要的 package
 ```markdown=
