@@ -60,6 +60,7 @@ cd /work/username/result/analysis
 rsync -avz /work/evelyn92/2026NGS/HW3/rocplot.sh ./
 rsync -avz /work/evelyn92/rocplot/rocplot.Rscript ./
 ```
+
 2. 進入R，載入需要的 package
 ```markdown=
 R
@@ -80,6 +81,7 @@ n
 ```
 sbatch rocplot.sh
 ```
+
 5. 得到結果存於`rocplot`資料夾，裡面各有兩張圖。
 
 例如：
