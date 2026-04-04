@@ -127,7 +127,7 @@ R2=${IN_DIR}/${sample}_2.fastq.gz
 4. 建立資料夾(命名為`output_${sample}`)來存放結果
 ```
 # output
-OUT_DIR=/work/${user}/result/output_${sample}
+OUT_DIR=/work/${user}/result/analysis/output_${sample}
 mkdir -p ${OUT_DIR}
 cd ${OUT_DIR}
 ```    
