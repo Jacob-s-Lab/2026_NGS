@@ -81,25 +81,33 @@ n
 ```
 sbatch rocplot.sh
 ```
-5. 得到結果存於 rocplot_HC 或 rocplot_M2 資料夾，裡面各有兩張圖。
-
+6. 得到結果存於`rocplot`資料夾，裡面各有兩張圖。
 
 例如：
-- S14, S15, S18 Mutect2 在 SNP 的結果比較：
-![hap_plot.SNP](https://hackmd.io/_uploads/SJz1Ym6Tee.png)
+- HaplotypeCaller 及 Mutect2 在 SNP 的結果比較：
+![hap_plot.SNP](https://hackmd.io/_uploads/H1JO0jAoWg.png)
 
+- HaplotypeCaller 及 Mutect2 在 Indel 的結果比較：
+![hap_plot.INDEL](https://hackmd.io/_uploads/r1qdRjCi-l.png)
 
+7. 打開 IGV 比較`hap.py`的結果。
+(1)先比較HaplotypeCaller 及 Mutect2 找出只有一個工具有call出的pathogenic gene。
+**提示:開啟`sample.HC.VEP.tsv` 和 `sample.M2.VEP.tsv` 用檔案內提供的數據來判斷
+[(tsv檔案講解說明)](https://github.com/Jacob-s-Lab/2026_NGS/blob/main/HW3_3_VEP.md)**
 
+(2)用ThinLinc開啟IGV
+```
+sh /opt/ohpc/Taiwania3/pkg/biology/IGV/IGV_v2.10.3/igv.sh
+```
+(3) 左上角下拉選擇Human hg38
+![螢幕擷取畫面 2026-04-04 234121](https://hackmd.io/_uploads/HkBHK3Robe.png)
 
-- S14, S15, S18 Mutect2 在 Indel 的結果比較：
-![hap_plot.INDEL](https://hackmd.io/_uploads/H17xYQTaxx.png)
-
-
-6. 也可以打開 IGV 比較`hap.py`的結果。
-結果儲存於```output_prefix.vcf.gz```
-- 工具間的比較：
-    舉例：S18 Mutect2 及 Haplotypecaller 的 SNP 比較，在 chr1 的241,884,674這個位點可以在 Haplotypecaller 被找到，但在 Mutect2 找不到。
-![螢幕擷取畫面 2025-10-15 214642](https://hackmd.io/_uploads/S1CWFQpTee.png)
-- 樣本間的比較：
-    舉例：S14, S15, S18 Mutect2 的 SNP 比較。
-![樣本間比較](https://hackmd.io/_uploads/BkJmFQapee.png)
+(4)透過左上角的File → Load from file可匯入儲存`hap.py`結果的檔案
+- file:
+```
+/work/username/result/analysis/output_sample/hap/hap_HC/output_prefix.vcf.gz
+/work/username/result/analysis/output_sample/hap/hap_M2/output_prefix.vcf.gz
+```
+(5)進行工具間的比較
+    舉例：某 sample 在 `chr2:218164209` 這個位點可以在 Mutect2 被找到，但在 Haplotypecaller 找不到。
+![螢幕擷取畫面 2026-04-04 234121](https://hackmd.io/_uploads/B1TJ_h0sWx.png)
