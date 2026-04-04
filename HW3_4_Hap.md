@@ -102,7 +102,7 @@ sbatch rocplot.sh
 sh /opt/ohpc/Taiwania3/pkg/biology/IGV/IGV_v2.10.3/igv.sh
 ```
 (3) 左上角下拉選擇Human hg38
-![螢幕擷取畫面 2026-04-04 234121](https://hackmd.io/_uploads/HkBHK3Robe.png)
+![螢幕擷取畫面 2026-04-05 001518](https://hackmd.io/_uploads/H13uoh0i-l.png)
 
 (4)透過左上角的File → Load from file可匯入儲存`hap.py`結果的檔案
 - file:
