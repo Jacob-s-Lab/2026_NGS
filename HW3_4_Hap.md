@@ -92,6 +92,7 @@ sbatch rocplot.sh
 ![hap_plot.INDEL](https://hackmd.io/_uploads/r1qdRjCi-l.png)
 
 6. 打開 IGV 比較`hap.py`的結果。
+
 (1)先比較HaplotypeCaller 及 Mutect2 找出只有一個工具有call出的pathogenic gene。
 **提示:開啟`sample.HC.VEP.tsv` 和 `sample.M2.VEP.tsv` 用檔案內提供的數據來判斷
 [(tsv檔案講解說明)](https://github.com/Jacob-s-Lab/2026_NGS/blob/main/HW3_3_VEP.md)**
