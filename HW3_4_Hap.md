@@ -74,14 +74,13 @@ n
    (1)🔴 **紅色** 的部分：需換成自己的 **username**。  \
    (2)🟡 **黃色** 部分：改成自己的sample。  \
    (3)🔵 **藍色** 的部分：須注意是 **Haplotypecaller 或是 Mutect2 的檔案**。  \
-![螢幕擷取畫面 2026-03-30 170606](https://hackmd.io/_uploads/H1HtphwsZl.png)
+![螢幕擷取畫面 2026-04-05 002000](https://hackmd.io/_uploads/SJNpq2CoWx.png)
 
-
-5. 執行`rocplot.sh`
+4. 執行`rocplot.sh`
 ```
 sbatch rocplot.sh
 ```
-6. 得到結果存於`rocplot`資料夾，裡面各有兩張圖。
+5. 得到結果存於`rocplot`資料夾，裡面各有兩張圖。
 
 例如：
 - HaplotypeCaller 及 Mutect2 在 SNP 的結果比較：
@@ -90,7 +89,7 @@ sbatch rocplot.sh
 - HaplotypeCaller 及 Mutect2 在 Indel 的結果比較：
 ![hap_plot.INDEL](https://hackmd.io/_uploads/r1qdRjCi-l.png)
 
-7. 打開 IGV 比較`hap.py`的結果。
+6. 打開 IGV 比較`hap.py`的結果。
 (1)先比較HaplotypeCaller 及 Mutect2 找出只有一個工具有call出的pathogenic gene。
 **提示:開啟`sample.HC.VEP.tsv` 和 `sample.M2.VEP.tsv` 用檔案內提供的數據來判斷
 [(tsv檔案講解說明)](https://github.com/Jacob-s-Lab/2026_NGS/blob/main/HW3_3_VEP.md)**
