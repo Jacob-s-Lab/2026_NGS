@@ -104,7 +104,7 @@ sh /opt/ohpc/Taiwania3/pkg/biology/IGV/IGV_v2.10.3/igv.sh
 (3) 左上角下拉選擇Human hg38
 ![螢幕擷取畫面 2026-04-05 001518](https://hackmd.io/_uploads/H13uoh0i-l.png)
 
-(4)透過左上角的File → Load from file可匯入儲存`hap.py`結果的檔案(兩種工具個一個，共要匯入兩個檔案)
+(4)透過左上角的File → Load from file可匯入儲存`hap.py`結果的檔案 (兩種工具各一個，共要匯入兩個檔案)
 - file 1:`/work/username/result/analysis/output_sample/hap/hap_HC/output_prefix.vcf.gz`
 - file 2:`/work/username/result/analysis/output_sample/hap/hap_M2/output_prefix.vcf.gz`
 
