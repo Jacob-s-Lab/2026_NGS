@@ -1,0 +1,66 @@
+/
+|____work
+| |____Username
+|   |____result
+|   | |____fastq
+|   | | |____sample_1.fastq.gz
+|   | | |____sample_2.fastq.gz
+|   | |____fastp_sample
+|   | | |____sample_1.clean.fastq.gz
+|   | | |____sample_2.clean.fastq.gz
+|   | | |____sample.html
+|   | | |____sample.json
+|   | |____err.log
+|   | |____out.log
+|   | |____analysis
+|   |   |____output_sample
+|   |   | |____ALN
+|   |   | | |____sample.bam
+|   |   | | |____sample.sam
+|   |   | | |____sample.sorted.bam
+|   |   | | |____sample.sorted.bam.bai
+|   |   | | |____sample.sorted.markdup.bam
+|   |   | | |____sample_markdup_metrics.txt
+|   |   | | |____sample.sorted.markdup.bai
+|   |   | |____VC
+|   |   | | |____sample.sorted.markdup.HC.vcf.gz
+|   |   | | |____sample.sorted.markdup.HC.vcf.gz.tbi
+|   |   | | |____sample.sorted.markdup.HC.cram
+|   |   | | |____sample.sorted.markdup.HC.cram.crai
+|   |   | | |____sample.sorted.markdup.M2.vcf.gz
+|   |   | | |____sample.sorted.markdup.M2.vcf.gz.tbi
+|   |   | | |____sample.sorted.markdup.M2.cram
+|   |   | | |____sample.sorted.markdup.M2.cram.crai
+|   |   | |____VP
+|   |   |   |____sample.HC.normed.vcf.gz
+|   |   |   |____sample.HC.normed.vcf.gz.tbi
+|   |   |   |____sample.HC.VEP.vcf
+|   |   |   |____sample.HC.VEP.vcf_summary.html
+|   |   |   |____sample.HC.VEP.vcf_warnings.txt
+|   |   |   |____sample.HC.VEP_filtered.tsv
+|   |   |   |____sample.HC.VEP.tsv
+|   |   |   |____sample.M2.normed.vcf.gz.tbi
+|   |   |   |____sample.M2.normed.vcf.gz
+|   |   |   |____sample.M2.VEP.vcf
+|   |   |   |____sample.M2.VEP.vcf_summary.html
+|   |   |   |____sample.M2.VEP.vcf_warnings.txt
+|   |   |   |____sample.M2.VEP_filtered.tsv
+|   |   |   |____sample.M2.VEP.tsv
+|   |   |____al_err.log
+|   |   |____al_out.log
+|   |   |____ALN.sh
+|   |   |____hc_err.log
+|   |   |____hc_out.log
+|   |   |____VC_HC.sh
+|   |   |____m2_err.log
+|   |   |____m2_out.log
+|   |   |____VC_M2.sh
+|   |   |____mutect2.sh
+|   |   |____vp_hc_err.log
+|   |   |____vp_hc_out.log
+|   |   |____vep_HC.sh
+|   |   |____vp_m2_err.log
+|   |   |____vp_m2_out.log
+|   |   |____vep_M2.sh
+|   |____fastp.sh
+|____home
