@@ -25,9 +25,10 @@ rsync -avz /work/evelyn92/High-Confidence_Regions_v1.2.bed.gz ./
 
 2. 打開`hap.sh`並寫入正確的路徑名稱。  \
    (1)🔴 **紅色** 部分：**username** 改成自己的。  \
-   (2)🟡 **黃色** 部分：改成自己的sample。  
+   (2)🟡 **黃色** 部分：改成自己的sample。  \
+   (3)🔵 **藍色** 的部分：須注意是 **Haplotypecaller 或是 Mutect2 的檔案**。  \
    ![螢幕擷取畫面 2026-03-30 133405](https://hackmd.io/_uploads/BJ0NhKPiZl.png)
-
+   ![螢幕擷取畫面 2026-04-07 120630](https://hackmd.io/_uploads/rJuPm-zhZe.png)
 
 > [!Important]
 > #### 提醒：
