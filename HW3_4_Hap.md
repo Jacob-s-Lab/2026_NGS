@@ -130,4 +130,4 @@ bash extract_only_TP.sh evelyn92 SRR13076392
 HC.sorted.tsv  \
 M2.sorted.tsv  \
 HC_only_TP.tsv: **經hap判定為true positive(TP)，且僅由 HaplotypeCaller 呼叫到的變異**  \
-M2_only_TP.tsv: **經hap判定為true positive(TP)，且僅由 Mutect2 呼叫到的變異**  \
+M2_only_TP.tsv: **經hap判定為true positive(TP)，且僅由 Mutect2 呼叫到的變異**  
