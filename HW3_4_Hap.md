@@ -112,3 +112,22 @@ sh /opt/ohpc/Taiwania3/pkg/biology/IGV/IGV_v2.10.3/igv.sh
 (5)進行工具間的比較
     舉例：某 sample 在 `chr2:218164209` 這個位點可以在 Mutect2 被找到，但在 Haplotypecaller 找不到。
 ![螢幕擷取畫面 2026-04-04 234121](https://hackmd.io/_uploads/B1TJ_h0sWx.png)
+
+### step 3 找出被判定為 true positive（TP），且僅由其中一個 variant caller 成功呼叫（called）的變異。
+1. 複製需執行檔
+```
+cd /work/username/result/analysis
+rsync -avz /work/evelyn92/2026NGS/HW3/extract_only_TP.sh ./
+```
+2. 執行[`extract_only_TP.sh`]()
+```
+# Usage:
+bash extract_only_TP.sh <username> <sample>
+# Example:
+bash extract_only_TP.sh evelyn92 SRR13076392
+```
+3. 得到結果 : 共4個檔案
+HC.sorted.tsv
+M2.sorted.tsv
+HC_only_TP.tsv: **經hap判定為true positive(TP)，且僅由 HaplotypeCaller 呼叫到的變異**
+M2_only_TP.tsv: **經hap判定為true positive(TP)，且僅由 Mutect2 呼叫到的變異**
