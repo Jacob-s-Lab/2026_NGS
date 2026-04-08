@@ -119,7 +119,7 @@ sh /opt/ohpc/Taiwania3/pkg/biology/IGV/IGV_v2.10.3/igv.sh
 cd /work/username/result/analysis
 rsync -avz /work/evelyn92/2026NGS/HW3/extract_only_TP.sh ./
 ```
-2. 執行[`extract_only_TP.sh`]()
+2. 執行[`extract_only_TP.sh`](https://github.com/Jacob-s-Lab/2026_NGS/blob/main/script/extract_only_TP.sh)
 ```
 # Usage:
 bash extract_only_TP.sh <username> <sample>
