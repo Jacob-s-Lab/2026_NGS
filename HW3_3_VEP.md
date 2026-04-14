@@ -73,7 +73,7 @@ vim vep_HC.sh
 
 ![Screenshot 2024-10-15 at 16.08.42](https://hackmd.io/_uploads/B1RI7js11g.png)
 
-
+❗為呈現完整的流程script會包含前一個步驟，若要節省時間，可以將重複的部分刪除，但請注意input和output檔案路徑及變數設定❗
     
     
     
