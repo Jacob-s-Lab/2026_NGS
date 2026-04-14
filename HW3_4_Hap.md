@@ -13,6 +13,9 @@
 > #### 什麼是`hap.py`？
 > `hap.py`（Haplotype Comparison Tools）是一個用於比較基因組變異的工具。它經常被用來評估 variant calling 算法的準確性，特別是在體細胞或生殖細胞中的 SNPs 和 Indels 等變異的識別。它透過將 variant calling 的結果與已知的標準答案（例如 gold standard VCF）進行比對，將每個變異分類為 true positive（TP）、false positive（FP）或 false negative（FN）。其中，TP 代表在位置與等位基因上與標準答案正確匹配的變異。基於這些分類結果，hap.py 可進一步計算變異檢測方法的靈敏度（Recall）、精確度（Precision）等評估指標。
 
+## 本次課程的樹狀資料結構
+[Hap](https://github.com/Jacob-s-Lab/2026_NGS/blob/main/tree/NGS_HW3_4_tree.txt)
+
 ### step 1 : 執行 [`hap.py`](https://github.com/Jacob-s-Lab/2026_NGS/blob/main/script/hap.sh)
 
 1. 複製上課所需執行檔與標準檔。
