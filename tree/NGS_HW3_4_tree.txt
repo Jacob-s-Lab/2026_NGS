@@ -25,27 +25,66 @@
 |   |   | |____VC
 |   |   | | |____sample.sorted.markdup.HC.vcf.gz
 |   |   | | |____sample.sorted.markdup.HC.vcf.gz.tbi
+|   |   | | |____sample.sorted.markdup.HC.bai
+|   |   | | |____sample.sorted.markdup.HC.bam
 |   |   | | |____sample.sorted.markdup.HC.cram
 |   |   | | |____sample.sorted.markdup.HC.cram.crai
 |   |   | | |____sample.sorted.markdup.M2.vcf.gz
 |   |   | | |____sample.sorted.markdup.M2.vcf.gz.tbi
+|   |   | | |____sample.sorted.markdup.M2.bai
+|   |   | | |____sample.sorted.markdup.M2.bam
+|   |   | | |____sample.sorted.markdup.M2.vcf.gz.stats
 |   |   | | |____sample.sorted.markdup.M2.cram
 |   |   | | |____sample.sorted.markdup.M2.cram.crai
 |   |   | |____VP
-|   |   |   |____sample.HC.normed.vcf.gz
-|   |   |   |____sample.HC.normed.vcf.gz.tbi
-|   |   |   |____sample.HC.VEP.vcf
-|   |   |   |____sample.HC.VEP.vcf_summary.html
-|   |   |   |____sample.HC.VEP.vcf_warnings.txt
-|   |   |   |____sample.HC.VEP_filtered.tsv
-|   |   |   |____sample.HC.VEP.tsv
-|   |   |   |____sample.M2.normed.vcf.gz.tbi
-|   |   |   |____sample.M2.normed.vcf.gz
-|   |   |   |____sample.M2.VEP.vcf
-|   |   |   |____sample.M2.VEP.vcf_summary.html
-|   |   |   |____sample.M2.VEP.vcf_warnings.txt
-|   |   |   |____sample.M2.VEP_filtered.tsv
-|   |   |   |____sample.M2.VEP.tsv
+|   |   | | |____sample.HC.normed.vcf.gz
+|   |   | | |____sample.HC.normed.vcf.gz.tbi
+|   |   | | |____sample.HC.VEP.vcf
+|   |   | | |____sample.HC.VEP.vcf_summary.html
+|   |   | | |____sample.HC.VEP.vcf_warnings.txt
+|   |   | | |____sample.HC.VEP_filtered.tsv
+|   |   | | |____sample.HC.VEP.tsv
+|   |   | | |____sample.M2.normed.vcf.gz.tbi
+|   |   | | |____sample.M2.normed.vcf.gz
+|   |   | | |____sample.M2.VEP.vcf
+|   |   | | |____sample.M2.VEP.vcf_summary.html
+|   |   | | |____sample.M2.VEP.vcf_warnings.txt
+|   |   | | |____sample.M2.VEP_filtered.tsv
+|   |   | | |____sample.M2.VEP.tsv
+|   |   | |____hap
+|   |   | | |____hap_HC
+|   |   | |   |____output_prefix.runinfo.json
+|   |   | |   |____output_prefix.metrics.json.gz
+|   |   | |   |____output_prefix.roc.Locations.SNP.csv.gz
+|   |   | |   |____output_prefix.roc.Locations.SNP.PASS.csv.gz
+|   |   | |   |____output_prefix.roc.Locations.INDEL.csv.gz
+|   |   | |   |____output_prefix.roc.Locations.INDEL.PASS.csv.gz
+|   |   | |   |____output_prefix.roc.all.csv.gz
+|   |   | |   |____output_prefix.summary.csv
+|   |   | |   |____output_prefix.extended.csv
+|   |   | |   |____output_prefix.vcf.gz
+|   |   | |   |____output_prefix.vcf.gz.tbi
+|   |   | |   |____sample.HC.modified.vcf.gz
+|   |   | |   |____sample.HC.modified.vcf.gz.csi
+|   |   | | |____hap_M2
+|   |   | | | |____output_prefix.runinfo.json
+|   |   | | | |____output_prefix.metrics.json.gz
+|   |   | | | |____output_prefix.roc.Locations.SNP.csv.gz
+|   |   | | | |____output_prefix.roc.Locations.SNP.PASS.csv.gz
+|   |   | | | |____output_prefix.roc.Locations.INDEL.csv.gz
+|   |   | | | |____output_prefix.roc.Locations.INDEL.PASS.csv.gz
+|   |   | | | |____output_prefix.roc.all.csv.gz
+|   |   | | | |____output_prefix.summary.csv
+|   |   | | | |____output_prefix.extended.csv
+|   |   | | | |____output_prefix.vcf.gz
+|   |   | | | |____output_prefix.vcf.gz.tbi
+|   |   | | | |____sample.HC.modified.vcf.gz
+|   |   | | | |____sample.HC.modified.vcf.gz.csi
+|   |   | | |____hHC_only_TP.tsv
+|   |   | | |____hM2_only_TP.tsv
+|   |   | |____rocplot
+|   |   |   |____hap_plot.INDEL.png
+|   |   |   |____hap_plot.SNP.png
 |   |   |____al_err.log
 |   |   |____al_out.log
 |   |   |____ALN.sh
