@@ -81,6 +81,7 @@ R2=${IN_DIR}/${sample}_2.fastq.gz
 > #### 本次加入的步驟:Variant calling
 > ![image](https://hackmd.io/_uploads/HJewMZ4o-e.png)
 > ![image](https://hackmd.io/_uploads/B1Kuzb4iZg.png)
+
 ❗為呈現完整的流程script會包含前一個步驟，若要節省時間，可以將重複的部分刪除，但請注意input和output檔案路徑及變數設定❗
 
 4. 輸入`:wq`儲存離開
