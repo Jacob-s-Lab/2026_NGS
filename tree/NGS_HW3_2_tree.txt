@@ -25,10 +25,15 @@
 |   |   | |____VC
 |   |   |   |____sample.sorted.markdup.HC.vcf.gz
 |   |   |   |____sample.sorted.markdup.HC.vcf.gz.tbi
+|   |   |   |____sample.sorted.markdup.HC.bai
+|   |   |   |____sample.sorted.markdup.HC.bam
 |   |   |   |____sample.sorted.markdup.HC.cram
 |   |   |   |____sample.sorted.markdup.HC.cram.crai
 |   |   |   |____sample.sorted.markdup.M2.vcf.gz
 |   |   |   |____sample.sorted.markdup.M2.vcf.gz.tbi
+|   |   |   |____sample.sorted.markdup.M2.bai
+|   |   |   |____sample.sorted.markdup.M2.bam
+|   |   |   |____sample.sorted.markdup.M2.stats
 |   |   |   |____sample.sorted.markdup.M2.cram
 |   |   |   |____sample.sorted.markdup.M2.cram.crai
 |   |   |____al_err.log
